@@ -20,24 +20,19 @@ mod "garethr/docker",         '5.3.0'
 #  :branch => 'docs_experiment'
 
 mod 'ssh',
-  :git => 'https://github.com/jlcoplan/puppet-ssh.git',
-  :re  => 'master'
-
-mod 'ntp',
-  :git => 'https://github.com/jlcoplan/puppet-ntp.git',
+  :git => 'https://github.com/jlcoplan/puppet-ssh',
   :ref => 'master'
 
-mod 'role'
-   :git => 'https://github.com/jlcoplan/puppet-role.git',
+mod 'ntp',
+  :git => 'https://github.com/jlcoplan/puppet-ntp',
+  :ref => 'master'
+
+mod 'role',
+   :git => 'https://github.com/jlcoplan/puppet-role',
    :ref => 'master'
 
-mod 'profile'
-  :git => 'https://github.com/jlcoplan/puppet-profile.git',
+mod 'profile',
+  :git => 'https://github.com/jlcoplan/puppet-profile',
   :ref => 'master'
 
  
-  :ref =>
-
-
-  :ref => 'master'
-  :ref =>
